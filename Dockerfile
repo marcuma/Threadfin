@@ -6,7 +6,7 @@ FROM golang:1.23 AS builder
 
 # Download the source code
 RUN apt-get update && apt-get install -y git
-RUN git clone https://github.com/Threadfin/Threadfin.git /src
+RUN git clone https://github.com/marcuma/Threadfin.git /src
 
 WORKDIR /src
 
