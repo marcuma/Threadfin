@@ -27,7 +27,7 @@ ARG THREADFIN_VERSION
 LABEL org.label-schema.build-date="${BUILD_DATE}" \
       org.label-schema.name="Threadfin" \
       org.label-schema.description="Dockerized Threadfin" \
-      #org.label-schema.url="https://hub.docker.com/r/fyb3roptik/threadfin/" \
+      org.label-schema.url="https://hub.docker.com/r/marcuma/threadfin/" \
       org.label-schema.vcs-ref="${VCS_REF}" \
       org.label-schema.vcs-url="https://github.com/marcuma/Threadfin" \
       org.label-schema.vendor="Threadfin" \
