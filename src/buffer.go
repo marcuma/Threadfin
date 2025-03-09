@@ -137,8 +137,6 @@ func createStreamID(stream map[int]ThisStream, ip, userAgent string) (streamID i
 }
 
 func bufferingStream(playlistID string, streamingURL string, backupStream1 *BackupStream, backupStream2 *BackupStream, backupStream3 *BackupStream, channelName string, w http.ResponseWriter, r *http.Request) {
-	showInfo("PlaylistID:" + playlistID)
-	showInfo("URL:" + streamingURL)
 	time.Sleep(time.Duration(Settings.BufferTimeout) * time.Millisecond)
 
 	var playlist Playlist
